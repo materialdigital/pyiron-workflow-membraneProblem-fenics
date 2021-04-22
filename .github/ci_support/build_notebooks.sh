@@ -17,7 +17,7 @@ i=0;
 for f in $(find . -name "*.ipynb" | sort -n); do
     cd $(dirname $f);
     notebook=$(basename $f);
-    papermill ${notebook} ${notebook%.*}-out.${notebook##*.} || i=$((i+1));
+    papermill ${notebook} ${notebook%.*}-out.${notebook##*.} -k "python3"|| i=$((i+1));
     cd $current_dir;
 done;
 
