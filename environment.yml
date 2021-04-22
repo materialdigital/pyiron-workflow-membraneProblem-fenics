@@ -1,7 +1,7 @@
 channels:
 - conda-forge
 dependencies:
-- python
-- pyiron_atomistics =0.2.8
-- lammps =2021.02.10=*openmpi*_4
-- nglview =2.7.7
+- pyiron_continuum=0.0.1
+- fenics=2019.1.0
+- mshr=2019.1.0=py38h255090a_2
+- matplotlib
