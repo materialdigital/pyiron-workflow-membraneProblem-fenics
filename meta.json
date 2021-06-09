@@ -3,15 +3,13 @@
     "title": "pyiron-fenics workflow (demo): membrane under Gaussian load",
     "authors": ["Muhammad Hassani <hassani@mpie.de>"],
     "description": "The workflow uses FEniCS FEM solver to solve Poisson Equation for deflection of a circular membrane under a distributed Gaussian load",
-    "release": "0.0.2" ,
+    "release": "0.0.3" ,
     "keywords": [
         "pyiron",
         "fenics",
         "membrane",
         "deflection"
     ],
-    "categories":[
-        "continuum"
-    ],
+    "categories": ["continuum"],
     "logo": "fenics_workflow.png"
 }
